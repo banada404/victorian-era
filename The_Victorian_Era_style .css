@@ -231,3 +231,108 @@ h3{
     font-size: 15px;
     text-align: center;
 }
+
+
+/* 🌐 كود التجاوب لجميع الأجهزة */
+
+/* الأجهزة اللوحية والمتوسطة */
+@media (max-width: 1024px) {
+    .noor {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card, .caard, .carrd, .cardd {
+        width: 80%;
+        margin: 15px auto;
+    }
+    h1 {
+        font-size: 350%;
+    }
+    h2 {
+        font-size: 200%;
+    }
+    .text {
+        font-size: 18px;
+    }
+}
+
+/* الأجهزة الصغيرة (مثل الجوالات) */
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+    h1 {
+        font-size: 250%;
+    }
+    h2 {
+        font-size: 160%;
+    }
+    h3 {
+        font-size: 120%;
+    }
+
+    .noor {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .card, .caard, .carrd, .cardd {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .photo img {
+        width: 95%;
+        height: auto;
+        object-position: center;
+    }
+
+    .web {
+        font-size: 16px;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .text {
+        font-size: 16px;
+        padding-left: 10px;
+    }
+
+    .immg {
+        width: 100%;
+        height: 160px;
+    }
+
+    .paragraph {
+        font-size: 14px;
+    }
+
+    .webb {
+        border-radius: 15px;
+    }
+}
+
+/* الشاشات الصغيرة جدًا (أقل من 480px مثل الهواتف الصغيرة) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 200%;
+    }
+    h2 {
+        font-size: 130%;
+    }
+    .card, .caard, .carrd, .cardd {
+        width: 95%;
+        padding: 10px;
+    }
+    .text {
+        font-size: 14px;
+    }
+    .immg {
+        height: 140px;
+    }
+    .photo img {
+        height: 220px;
+        object-position: center;
+    }
+}
